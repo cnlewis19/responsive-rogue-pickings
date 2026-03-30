@@ -9,6 +9,9 @@ body {
 .content-wrapper {
 	max-width: 1200px;
 	width: 90%;
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap; 
 }
 
 h1,
@@ -44,10 +47,12 @@ p {
 header {
 	display: flex;
 	justify-content: center;
+	text-align: center; 
 }
 
 header h1 {
 	padding: 38px 0;
+	width: 100%;
 }
 
 header h1 span {
@@ -68,6 +73,7 @@ header nav ul li {
 	font-weight: 700;
 	text-transform: uppercase;
 	padding: 0 10px;
+	width: 100%; 
 }
 
 header nav ul li a {
@@ -107,20 +113,21 @@ header nav ul li a {
 .section-three {
 	box-sizing: border-box;
 	padding: 0 40px;
+	width: 100%;
 }
 
 .section-one {
-	width: 29%;
+	/*width: 29%; */
 }
 
 .section-two {
-	width: 42%;
+	/* width: 42%; */
 	border-left: 5px solid #EEE;
 	border-right: 5px solid #EEE;
 }
 
 .section-three {
-	width: 29%;
+	/* width: 29%; */
 }
 
 .bottom-section h3 {
